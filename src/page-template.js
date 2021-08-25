@@ -1,6 +1,8 @@
 
 
 
+
+
 // create the engineer cards
 const generateEngineer = engineerArr => {
   return `
@@ -51,9 +53,10 @@ const generateIntern = InternArr => {
   `;
 };
 
+
 module.exports = templateData => {
   const { managers, engineers, interns } = templateData;
-
+console.log(templateData);
 
 
   return `
