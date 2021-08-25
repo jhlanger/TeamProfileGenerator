@@ -196,7 +196,7 @@ const generateEngineer = engineerArr => {
         .map(({ name, empID, email, school }) => {
           return `
             <div class="card bg-light mb-3 mx-3" style="max-width: 18rem;">
-      <div class="card-header">Engineer</div>
+      <div class="card-header">Intern</div>
       <div class="card-body">
         <h5 class="card-title">${name}</h5>
         <ul class="list-group list-group-flush">
